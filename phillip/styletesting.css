@@ -1,0 +1,115 @@
+body {
+  padding-top: 15px;
+  font-family: "Karla", sans-serif;
+  position: relative;
+  /* background-image: url('logo_slanted.svg'); */
+}
+.text-center {
+  padding-top: 20px;
+}
+.col-xs-12 {
+  background-color: #fff;
+}
+
+h1{
+  color: #000000;
+  text-align: center;
+  position: relative;
+  padding-top: 15%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+
+}
+
+h2{
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  position: relative;
+  font-size:18px;
+}
+
+
+#footer{
+  width: 100%;
+  display: block;
+  position: fixed;
+  margin-top:15%;
+  margin-left: 0;
+  text-align: center;
+
+}
+
+.social-icon li a{
+  text-decoration: none;
+}
+#footer li{
+    display: inline-block;
+}
+
+.social-icon i{
+  padding: 15px;
+  color: black;
+}
+
+.social-icon i:hover{
+  transform:scale(1.2);
+}
+
+#twitter i:hover{
+  color: #1da1f2;
+}
+
+#insta i:hover{
+  color: #e1306c;
+}
+
+#linkedin i:hover{
+  color: #0077b5;
+}
+
+#medium i:hover{
+  color: #00ab6c;
+}
+
+/* collapsible */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -41.6%;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -41.6%;
+  }
+  .row-offcanvas-right.active {
+    right: 41.6%;
+  }
+  .row-offcanvas-left.active {
+    left: 41.6%;
+  }
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 41.6%;
+  }
+  #sidebar {
+    padding-top:0;
+  }
+}
+
+
+
+
+
+
+object {
+  width: 80%;
+}
